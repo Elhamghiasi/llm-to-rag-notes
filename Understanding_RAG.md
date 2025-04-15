@@ -23,3 +23,23 @@ RAG and fine-tuning have the same intended outcome: enhancing a model’s perfor
 
 - **RAG** uses an organization’s internal data to augment prompt engineering.
 - **Fine-tuning** retrains a model on a focused set of external data to improve performance.
+
+
+## How Does RAG Work?
+
+**Retrieval-Augmented Generation (RAG)** works by locating information in internal data sources that is relevant to the user’s query, then using that data to generate more accurate responses. A data *"retrieval"* mechanism is added to *"augment"* the LLM by helping it *"generate"* more relevant responses.
+
+RAG models generate answers via a four-stage process:
+
+1. **Query**: A user submits a query, which initializes the RAG system.
+2. **Information Retrieval**: Complex algorithms comb the organization’s knowledge bases in search of relevant information.
+3. **Integration**: The retrieved data is combined with the user’s query and given to the RAG model to answer. Up to this point, the LLM has not processed the query.
+4. **Response**: Blending the retrieved data with its own training and stored knowledge, the LLM generates a contextually accurate response.
+
+When searching through internal documents, RAG systems use **semantic search**. Vector databases organize data by similarity, enabling searches by meaning rather than keyword. Semantic search allows RAG algorithms to understand the intent behind a query and return the most relevant data.
+
+However, RAG systems require **extensive data architecture** construction and maintenance. Data engineers must build the pipelines needed to connect the organization’s data lakehouses with the LLM.
+
+### Conceptual Analogy
+
+To conceptualize RAG, imagine a generative AI model as an amateur home cook. They know the basics of cooking but lack the expert knowledge—an organization’s proprietary database—of a chef trained in a particular cuisine. RAG is like giving the home cook a cookbook for that cuisine. By combining their general cooking knowledge with the recipes in the cookbook, the home cook can create cuisine-specific dishes with ease.
