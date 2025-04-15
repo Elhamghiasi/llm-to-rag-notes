@@ -40,6 +40,4 @@ When searching through internal documents, RAG systems use **semantic search**. 
 
 However, RAG systems require **extensive data architecture** construction and maintenance. Data engineers must build the pipelines needed to connect the organization’s data lakehouses with the LLM.
 
-### Conceptual Analogy
 
-To conceptualize RAG, imagine a generative AI model as an amateur home cook. They know the basics of cooking but lack the expert knowledge—an organization’s proprietary database—of a chef trained in a particular cuisine. RAG is like giving the home cook a cookbook for that cuisine. By combining their general cooking knowledge with the recipes in the cookbook, the home cook can create cuisine-specific dishes with ease.
