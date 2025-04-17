@@ -91,4 +91,3 @@ Retrieval-Augmented Generation (RAG) typically pulls **unstructured text** from 
 
 ---
 
-*Want to teach others about this? Consider using this markdown as a GitHub learning notebook!* 💡
