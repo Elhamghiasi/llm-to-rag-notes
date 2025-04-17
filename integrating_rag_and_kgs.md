@@ -8,34 +8,10 @@ Retrieval-Augmented Generation (RAG) typically pulls **unstructured text** from 
 - KG **entities and relationships** can help disambiguate queries and improve retrieval quality.
 - A **hybrid KG-enhanced RAG system** can combine structured facts with generative reasoning.
 
----
-
-## 2. Research Ideas at the Intersection of RAG and KGs
-
-###  Knowledge-Aware Retrieval in RAG
-- Can we retrieve **structured triples (entity–relation–entity)** instead of raw documents?
-- Can KGs help **filter irrelevant or contradictory information** during retrieval?
-
-###  KG-Guided Context Expansion
-- Instead of just documents, retrieve a **subgraph** to add relevant background knowledge.
-- *Example:* For a query like “Einstein’s contribution to quantum physics,” fetch subgraph nodes like:  
-  `Einstein → Quantum Mechanics → Key Papers`.
-
-###  RAG for KG Completion
-- Use RAG-generated answers to **fill missing links** in an incomplete KG.
-- *Example:* Predict missing disease–symptom links in a health KG.
-
-###  Fact Verification using KGs
-- Use KGs to **verify if retrieved/generated claims are true**.
-- *Example:* Confirming that “Tesla’s first invention” matches facts in a KG.
-
-###  Multimodal RAG with KGs
-- Retrieve **images, tables, or graphs** from KGs.
-- *Example:* For science queries, retrieve chemical structures or citation networks from a KG.
 
 ---
 
-## 3. Tools & Frameworks to Explore
+## 2. Tools & Frameworks to Explore
 
 | Purpose                    | Tools/Frameworks                          |
 |---------------------------|-------------------------------------------|
@@ -46,7 +22,7 @@ Retrieval-Augmented Generation (RAG) typically pulls **unstructured text** from 
 
 ---
 
-## 4. Example Comparisons
+## 3. Example Comparisons
 
 ###  Example 1: Movie Question
 
