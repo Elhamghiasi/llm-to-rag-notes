@@ -18,6 +18,9 @@ Here is a list of useful research papers and articles related to Retrieval-Augme
 4. **Fine-tuning Retrieval-Augmented Language Models with Cross-Encoder Supervision**  
    [Link to Paper](https://arxiv.org/abs/2502.13361)
 
+5. **Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely**  
+   [Link to Paper](https://arxiv.org/abs/2409.14924)
+
 ---
 
 #  Suggestions
